@@ -7,10 +7,10 @@ This is the capstone project for the Udacity DS Nanodegree. The data set used in
 Which group is more likely to view a BOGO offer after receiving it ?
 
 #### Input features
-- 3 binary features:
+- 3 features:
     - Old vs young: 35 years
-    - Male vs Female
     - Rich vs poor: $60k
+    - Male, female, other
 
 #### Output
 - People who viewed offer that received BOGO offer
