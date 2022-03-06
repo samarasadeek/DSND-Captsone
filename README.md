@@ -22,18 +22,16 @@ Which group is more likely to view a BOGO offer after receiving it ?
     - Remove outliers (age > 99 years, income > $1M) 
     - Drop people with missing age, gender, income data
     
-    - Add offer_ids, column to transcript data
-    - Rename 'id' column in portfolio to 'offer_ids'
-    - Remove outliers (age > 99 years, income > $1M) 
-    - Drop people with missing age, gender, income data
-    
 2. Feature engineering:
+    - One hot encode categorical variables
     - Gender category (male, female, other)
     - Income category (high income, low income)
     - Age category (young, old)
     
+    
 3. Train/test split:
     - 80/20 train/test
+    - Random oversample train dataset to deal with class imbalance
     
 4. Fit train data:
     - RandomForestClassifier
@@ -43,6 +41,6 @@ Which group is more likely to view a BOGO offer after receiving it ?
     - Understand feature importance
 
 ## Files: 
-1. Preparing_data: takes 3 input dataframes (portfolio, profile, transcript), cleans data, outputs prepared data as bogo_data.pkl
-2. Fit_classifier: imports prepared date (bogo_data.pkl), splits data and fits classifier, outputs test data (X_test.pkl, y_test.pkl) and model (classifier.pkl)
-3. Evaluate_model: imports model (classifier.pkl) and test data (X_test.pkl, y_test.pkl), evaluates model, determines feature importance 
+1. 1_prep: takes 3 input dataframes (portfolio, profile, transcript), cleans data, outputs prepared data as bogo_data.pkl
+2. 2_train: imports prepared date (bogo_data.pkl), splits data and fits classifier, outputs test data (X_test.pkl, y_test.pkl) and model (classifier.pkl)
+3. 3_evaluate: imports model (classifier.pkl) and test data (X_test.pkl, y_test.pkl), evaluates model, determines feature importance 
