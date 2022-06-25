@@ -1,7 +1,7 @@
 # Starbucks_offers
 
 ## Description:
-This is the capstone project for the Udacity DS Nanodegree. The data set used in this project was provided by Udacity and it contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). This project aims to determine which demographic groups respond best to which offer type. 
+This is the capstone project for the Udacity DS Nanodegree and is incomplete. The data set used in this project was provided by Udacity and it contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). This project aims to determine which demographic groups respond best to which offer type. 
 
 ### Question 1:
 Which group is more likely to view a BOGO offer after receiving it ?
