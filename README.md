@@ -1,6 +1,7 @@
 # Starbucks_offers
 
 ## Description:
+
 ### Overview
 This is the capstone project for the Udacity DS Nanodegree and is incomplete.
 
@@ -15,17 +16,17 @@ Three datasets were given:
 ### Problem statement:
 To determine which demographic groups respond best to which offer type. 
 
-#### Input features
+#### Input features:
 The predictor variables are:
-    - gender: M, F, O
-    - age: 5 age groups 
-    - income: low, med-low, med-high, high 
+  - gender: M, F, O
+  - age: 5 age groups 
+  - income: low, med-low, med-high, high 
 
-#### Output
+#### Output:
 Each user was given a binary responsiveness variable for BOGO and discount variables.
 The response variable was defined as a the responsiveness of the user i.e. how likely someone is to complete an offer if they received and viewed an offer. The proportion of offers completed per offers viewed was computed and if this ratio was greater than 0.5, the user was labelled as a responsive (or 1), if not, the user was labelled as unresponsive (or 0). This was determined for BOGO offers and discount offers. 
 
-#### Approach
+#### Approach:
 1. Data processing:
     - Add offer_ids, column to transcript data
     - Rename 'id' column in portfolio to 'offer_ids'
@@ -34,7 +35,7 @@ The response variable was defined as a the responsiveness of the user i.e. how l
     
 2. Feature engineering:
     - 	Age The ages were categorised into 5 age buckets that could be used in the classifier. The age groups were < 25, 25 – 34, 36 – 45, 46 – 66 and 67+. It was assumed that individuals within those age categories would behave similarly. This of course could be an incorrect assumption.
-    - Income: The income was categorised into 4 buckets of < $50,001 (low income), < $70,001 (med-low income), < $90,0001 (high-med income) and >= $ 90,0001 (high income). 
+    - Income: The income was categorised into 4 buckets of < 50,001 (low income), < 70,001 (med-low income), < 90,0001 (high-med income) and >= $ 90,0001 (high income). 
     -	All feature variables were onehotencoded  
     
 3. Train/test split:
