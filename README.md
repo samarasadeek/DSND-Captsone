@@ -35,7 +35,7 @@ The response variable was defined as a the responsiveness of the user i.e. how l
     
 2. Feature engineering:
     - 	Age The ages were categorised into 5 age buckets that could be used in the classifier. The age groups were < 25, 25 – 34, 36 – 45, 46 – 66 and 67+. It was assumed that individuals within those age categories would behave similarly. This of course could be an incorrect assumption.
-    - Income: The income was categorised into 4 buckets of < $50,001 (low income), < $70,001 (med-low income), < $90,0001 (high-med income) and >= $ 90,0001 (high income). 
+    - Income: The income was categorised into 4 buckets of < 50,001 (low income), < 70,001 (med-low income), < 90,0001 (high-med income) and >= 90,0001 (high income). 
     -	All feature variables were onehotencoded  
     
 3. Train/test split:
