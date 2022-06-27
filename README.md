@@ -31,7 +31,6 @@ The response variable was defined as a the responsiveness of the user i.e. how l
     - Add offer_ids, column to transcript data
     - Rename 'id' column in portfolio to 'offer_ids'
     - Remove outliers (age > 100 years). This also drops people with missing gender, income data
-    - Calculate
     
 2. Feature engineering:
     - 	Age The ages were categorised into 5 age buckets that could be used in the classifier. The age groups were < 25, 25 – 34, 36 – 45, 46 – 66 and 67+. It was assumed that individuals within those age categories would behave similarly. This of course could be an incorrect assumption.
