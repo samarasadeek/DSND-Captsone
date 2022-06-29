@@ -37,16 +37,21 @@ The response variable was defined as a the responsiveness of the user i.e. how l
     - Income: The income was categorised into 4 buckets of < 50,001 (low income), < 70,001 (med-low income), < 90,0001 (high-med income) and >= 90,0001 (high income). 
     -	All feature variables were onehotencoded  
     
-3. Train/test split:
-    - 80/20 train/test
+3. Preprocessing: 
+    - Onehotencode
+
+4. Pipeline: 
+    - Combine classifier and preprocessing in one pipeline 
+
+5. Define metric:
+    - Custom metric function made to determine expected profil per user 
     
-4. Fit train data:
+6. GridSearchCV 
+    - Use GridSearchCV to tune classifier to determine optimal parameters 
+    - Use crossvalidation to train and test classifier using different parameters 
+
+7. Fit train data:
     - RandomForestClassifier
+    - Linear SVC
+    - Bernoulli Naive Bayes
     
-5. Evaluation metric:
-    - Expected profit  
-
-5. Crossvalidation on test data:
-    - Calculate expected profit
-    - Understand feature importance
-
