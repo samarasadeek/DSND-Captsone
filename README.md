@@ -16,6 +16,13 @@ Three datasets were given:
 ### Problem statement:
 To determine which demographic groups respond best to which offer type. 
 
+#### Metric:
+
+For this study it was assumed that correctly predicting that a user would respond to an offer was more valuable to than correctly predicting that a user would not respond to an offer since more revenue would be generated from the user who responds to the offer. The implicit assumption here is that the costs and benefits are unequal. 
+The costs of incorrectly predicting that a user would not respond to a BOGO or discount offer (i.e. false negative) was not the equal to incorrectly predicting a user would respond to an offer (i.e. false positive). Further it was assumed that benefits of correctly predicting whether or not a user would respond to an offer (true positive) or not (true negative) were not the same. 
+A metric that takes this unequal costs and benefits was therefore needed to evaluate the classifier and was chosen to be the expected profit given by the equation below, a description is given in DS for Business. The final model was the one that gave the highest expected profit.
+
+
 #### Input features:
 The predictor variables are:
   - gender: M, F, O
