@@ -1,4 +1,4 @@
-# Starbucks_offers
+# Starbucks offers: Udacity DS Nanodegree Capstone project
 
 ### Description:
 
