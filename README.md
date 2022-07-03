@@ -1,4 +1,5 @@
 # Starbucks offers: Udacity DS Nanodegree Capstone project
+A blog post with a detailed description of the project can be found at https://medium.com/@Samara_S/predicting-starbucks-customers-responsiveness-to-offers-c63a75be872b
 
 ### Description:
 
